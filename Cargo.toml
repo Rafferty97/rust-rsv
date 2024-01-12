@@ -1,0 +1,8 @@
+[package]
+name = "librsv"
+version = "0.1.0"
+edition = "2021"
+description = "A simple crate for encoding/decoding the RSV file format (Rows of String Values)."
+
+[dependencies]
+thiserror = "1.0.56"
