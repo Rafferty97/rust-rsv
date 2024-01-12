@@ -1,8 +1,11 @@
 [package]
 name = "librsv"
 version = "0.1.0"
-edition = "2021"
+authors = ["Alexander Rafferty <hello@alexanderrafferty.com>"]
+edition = "2018"
 description = "A simple crate for encoding/decoding the RSV file format (Rows of String Values)."
+license = "MIT"
+repository = "https://github.com/Rafferty97/rust-rsv"
 
 [dependencies]
 thiserror = "1.0.56"
